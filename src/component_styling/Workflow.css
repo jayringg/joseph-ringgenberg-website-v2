@@ -1,0 +1,48 @@
+#workflow {
+    background-color: #f4f3f1;
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+  
+  .workflow-page-container {
+    display: inline-grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1.5em;
+    row-gap: 1.5em;
+    text-align: center;
+    /* padding-top: 4em; */
+  }
+  
+  .workflow-card p {
+    background-color: #fff;
+  }
+  
+  .workflow-card {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.2em;
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 2em;
+  }
+  
+  .workflow-card img {
+    background-color: #fff;
+  }
+  
+  .section-header-workflow {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 2em 1em 0;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    background-color: #f4f3f1;
+    /* background-color: #e0ecf5; */
+    color: #40b3a2;
+    letter-spacing: 0.1em;
+  }

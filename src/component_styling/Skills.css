@@ -1,0 +1,49 @@
+.center-control {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #skills {
+    background-color: #f4f3f1;
+  }
+  
+  .section-header {
+    padding: 2em 0 1em 3.5em;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    color: #40b3a2;
+    letter-spacing: 0.1em;
+  }
+  
+  .skill-cards-container {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5em;
+    row-gap: 1.5em;
+    text-align: center;
+  }
+  
+  .skill-cards-container p, a {
+    background-color: #fff;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 55px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3em;
+  }
+  
+  .card img {
+    background-color: #fff;
+    padding-bottom: 20px;
+  }

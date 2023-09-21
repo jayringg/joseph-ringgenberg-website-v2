@@ -1,0 +1,204 @@
+#projects {
+    background-color: #f4f3f1;
+  }
+  
+  .project1-color {
+    width: 100%;
+    background-color: #c38d9d;
+    padding: 4em 0 4em 0;
+  }
+
+  .project-space-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 60px;
+  }
+
+  .project-showcase-container {
+    display: flex;
+    align-items: center;
+   }
+
+  .project-left {
+    margin: 0 8em 4em 12em;
+    width: 35%;
+  }
+
+  .project-left ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .project-left li {
+    padding: 0.5em 0 0.5em 1.5em;
+  }
+
+  .arrow-list li::before {
+    content: "◇";
+    margin-right: 8px;
+    columns: #fff;
+    font-weight: bold;
+  }
+
+  .project-title {
+    margin-bottom: 1.5em;
+  }
+
+  .project-text {
+    line-height: 2em;
+    margin-bottom: 1em;
+  }
+
+  .project-tools-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .project-right {
+    width: 55%;
+  }
+  
+  .project-left h3 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .project-left p {
+    font-size: 1.3em;
+    color: #fff;
+  }
+
+  .project1-showcase {
+    background: url('../images/DoorDash-lrg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 480px;
+    height: 635px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    /* border: 1px solid #262626; */
+  }
+
+  .project2-color {
+    width: 100%;
+    background-color: #e27d5f;
+    padding: 4em 0 4em 0;
+  }
+
+  /* .project2-left {
+    margin: 0 8em 4em 12em;
+    width: 35%;
+  }
+  
+  .project2-right {
+    width: 55%;
+  }
+  
+  .project2-left h3 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .project2-left p {
+    font-size: 1.3em;
+    color: #fff;
+  }
+  
+  .project2-space-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 60px;
+  }
+  
+  .project2-showcase-container {
+    display: flex;
+    align-items: center;
+   } */
+
+   .project2-showcase {
+    background: url('../images/Mattress-lrg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e0ecf5;
+    width: 480px;
+    height: 635px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    /* border: 1px solid #262626; */
+  }
+  
+  .project3-color {
+    width: 100%;
+    background-color: #85cdca;
+    padding: 4em 0 4em 0;
+  }
+  
+   /* .project3-left {
+    margin: 0 8em 4em 12em;
+    width: 35%;
+  }
+  
+   .project3-right {
+    width: 55%;
+  }
+  
+  .project3-left h3 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  
+  .project3-left p {
+    font-size: 1.3em;
+    color: #fff;
+  }
+  
+   .project3-space-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 60px;
+  }
+  
+   .project3-showcase-container {
+    display: flex;
+    align-items: center;
+   } */
+  
+  .project3-showcase {
+    background: url('../images/Teachable-lrg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #e0ecf5;
+    width: 480px;
+    height: 635px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    /* border: 1px solid #262626; */
+  }
+
+  .view-project {
+    margin-top: 3em;
+  }
+
+  .view-project a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+    border: 1px solid #fff;
+    padding: 0.9em 2.5em;
+  }
+
+  .view-project a:hover{
+    box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px 0px;
+  }

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+  }
+
+.navbar-control {
+    background-color: #e8a87c;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0%;
+    transition: all 0.3s ease 0s;
+    z-index: -1;
+    height: 100%;
+}
+
+ .navbar-control.change {
+    background-color: #e8a87c;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    transition: width 0.3s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 2em 0 2em;
+}
+
+.nav-links a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.2em;
+    color: #fff;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+}
+
+a:hover {
+    color: #000;
+}
+
+.socials-logo {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em;
+}
+
+.linkedin-logo {
+    padding: 0 0.5em 0 0.5em;
+}
+
+.github-logo {
+    padding: 0 0.5em 0 0.5em;
+}
+
+.socials-logo img {
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+}
+
+.linkedin-logo img:hover {
+    background-color: #000;
+    border-radius: 2.5px;
+}
+
+.github-logo img:hover {
+    background-color: #000;
+    border-radius: 30px;
+}
