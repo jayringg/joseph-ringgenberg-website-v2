@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MobileOverlay from './components/MobileOverlay';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Skills from './components/Skills';
@@ -9,6 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <MobileOverlay />
       <Navbar />
       <Header />
       <Skills />

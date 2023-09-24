@@ -1,0 +1,41 @@
+.mobile-overlay {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-overlay.display {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        padding: 2em 0 0 4em;
+        background-color: #e8a87c;
+        width: 100vw;
+        height: 100vh;
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+        z-index: 1000;
+    }
+
+    .mobile-overlay.display ul {
+        list-style-type: none;
+    }
+
+    .mobile-overlay.display li {
+        padding-top: 2em;
+        font-size: 2em;
+    }
+
+    .mobile-overlay.display a {
+        background-color: transparent;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mobile-overlay.display {
+        align-items: center;
+        padding: 2em 0 0 0;
+       
+    }
+}

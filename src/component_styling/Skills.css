@@ -22,7 +22,7 @@
     grid-template-columns: repeat(3, 1fr);
     column-gap: 1.5em;
     row-gap: 1.5em;
-    text-align: center;
+    text-align: center; 
   }
   
   .skill-cards-container p, a {
@@ -35,8 +35,22 @@
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   }
+
+  .card-aside {
+    background-color: #fff;
+    padding: 55px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  }
   
   .card p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.3em;
+  }
+
+  .card-aside p {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -46,4 +60,101 @@
   .card img {
     background-color: #fff;
     padding-bottom: 20px;
+    width: 100px;
   }
+
+  .card-aside img {
+    background-color: #fff;
+    padding-bottom: 20px;
+    width: 100px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .card {
+      padding: 35px;  
+    }
+
+    .card-aside {
+      padding: 35px;  
+    }
+
+    .card img {
+      width: 80px;
+    }
+
+    .card-aside img {
+      width: 80px;
+    }
+
+    .section-header {
+      padding: 2em 0 1em 2em;
+      font-weight: 600;
+      font-size: 3em;
+    }
+   }
+
+   @media screen and (max-width: 840px) {
+    .card {
+      padding: 25px;  
+    }
+
+    .card-aside {
+      padding: 25px;  
+    }
+
+    .card p {
+      font-weight: 500;
+      font-size: 1.1em;
+    }
+
+    .card-aside p {
+      font-weight: 500;
+      font-size: 1.1em;
+    }
+
+    .section-header {
+      padding: 2em 0 1em 1em;
+    }
+
+    .card img {
+      width: 70px;
+    }
+
+    .card-aside img {
+      width: 70px;
+    }
+   }
+
+   @media screen and (max-width: 640px) {
+    .skill-cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-header {
+      padding: 2em 0 1em 0.5em;
+      font-weight: 600;
+      font-size: 2.5em;
+    }
+   }
+
+   @media screen and (max-width: 430px) {
+    .section-header {
+      padding: 2em 0 1em 0.5em;
+      font-weight: 600;
+      font-size: 2em;
+    }
+   }
+
+   @media screen and (max-width: 350px) {
+    .skill-cards-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+      margin-right: 6em; 
+    }
+
+    .card-aside {
+      margin-left: 6em; 
+    }
+   }

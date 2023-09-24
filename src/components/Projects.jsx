@@ -15,7 +15,7 @@ function Projects() {
                                 <ul className='arrow-list'>
                                     <li>Tables</li>
                                     <li>Media Queries</li>
-                                    <li>Light and Dark Mode</li>
+                                    <li>Light and Dark Mode</li> 
                                     <li>Email On Acid</li>
                                 </ul>
                             </div>

@@ -12,12 +12,12 @@
     /* padding: 0 0 0 2em; */
     width: 55%;
     height: 68%;
-  }
+  } 
 
   .personal-image {
     /* background-image: url('../images/personal-image-collar-no-background.png'); */
-    background-image: url('../images/Pic1No\ Background\ Crop1.png');
-    /* background-image: url('./images/Sketch_1694826645788.jpg'); */
+    background-image: url('../images/personal-pic.png');
+    /* background-image: url('../images/personal-pic-forward.png'); */
     background-size: cover;
     background-position: center; 
     background-color: #40b3a2;
@@ -54,3 +54,84 @@
   .get-in-touch a:hover{
     box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 4px 0px;
   }
+
+  @media screen and (max-width: 1200px) {
+    .text-over-name {
+      font-size: 3em;
+    }
+   }
+
+   @media screen and (max-width: 1000px) {
+    #header {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center; 
+    }
+
+    .personal-image {
+      background-image: url('../images/personal-pic-forward.png');
+      width: 500px;
+      height: 500px;
+      align-items: center;
+      margin-left: 20em;
+    }
+
+    .banner-content {
+      align-items: flex-end;
+      margin-top: 100px;
+      width: 55%;
+      height: 40%;
+    }
+   }
+
+   @media screen and (max-width: 840px) {
+    .text-over-name {
+      font-size: 2.3em;
+    }
+
+    .text-over {
+      font-size: 1.1em;
+    }
+
+    .get-in-touch a {
+      font-size: 1em;
+      padding: 0.9em 2em;
+    }
+
+    .personal-image {
+      margin-left: 10em;
+    }
+
+    .get-in-touch {
+      margin-top: 2em;
+    }
+   }
+
+   @media screen and (max-width: 640px) {
+    .personal-image {
+      width: 385px;
+      height: 385px;
+      margin-left: 0;
+    }
+
+    .banner-content {
+      z-index: 1;
+    }
+
+    .text-over-name {
+      line-height: 1.1em;
+    }
+   }
+
+   @media screen and (max-width: 480px) {
+    .text-over-name {
+      font-size: 2em;
+    }
+   }
+
+   @media screen and (max-width: 480px) {
+    .banner-content {
+      width: 60%;
+      height: 55%;
+    } 
+   }

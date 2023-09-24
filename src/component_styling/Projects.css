@@ -36,6 +36,11 @@
     padding: 0.5em 0 0.5em 1.5em;
   }
 
+  .arrow-list li {
+   color: #fff;
+   font-size: 1.2em;
+  }
+
   .arrow-list li::before {
     content: "◇";
     margin-right: 8px;
@@ -80,7 +85,6 @@
     height: 635px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    /* border: 1px solid #262626; */
   }
 
   .project2-color {
@@ -88,38 +92,6 @@
     background-color: #e27d5f;
     padding: 4em 0 4em 0;
   }
-
-  /* .project2-left {
-    margin: 0 8em 4em 12em;
-    width: 35%;
-  }
-  
-  .project2-right {
-    width: 55%;
-  }
-  
-  .project2-left h3 {
-    font-size: 2.5em;
-    color: #fff;
-  }
-  
-  .project2-left p {
-    font-size: 1.3em;
-    color: #fff;
-  }
-  
-  .project2-space-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    padding: 0 60px;
-  }
-  
-  .project2-showcase-container {
-    display: flex;
-    align-items: center;
-   } */
 
    .project2-showcase {
     background: url('../images/Mattress-lrg.jpg');
@@ -131,7 +103,6 @@
     height: 635px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    /* border: 1px solid #262626; */
   }
   
   .project3-color {
@@ -139,38 +110,6 @@
     background-color: #85cdca;
     padding: 4em 0 4em 0;
   }
-  
-   /* .project3-left {
-    margin: 0 8em 4em 12em;
-    width: 35%;
-  }
-  
-   .project3-right {
-    width: 55%;
-  }
-  
-  .project3-left h3 {
-    font-size: 2.5em;
-    color: #fff;
-  }
-  
-  .project3-left p {
-    font-size: 1.3em;
-    color: #fff;
-  }
-  
-   .project3-space-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    padding: 0 60px;
-  }
-  
-   .project3-showcase-container {
-    display: flex;
-    align-items: center;
-   } */
   
   .project3-showcase {
     background: url('../images/Teachable-lrg.jpg');
@@ -182,7 +121,6 @@
     height: 635px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    /* border: 1px solid #262626; */
   }
 
   .view-project {
@@ -200,5 +138,203 @@
   }
 
   .view-project a:hover{
-    box-shadow: rgba(255, 255, 255, 0.2) 2px 2px 4px 0px;
+    box-shadow: rgba(255, 255, 255, 0.2) 4px 4px 4px 0px;
   }
+
+  @media screen and (max-width: 1200px) {
+    .project1-showcase {
+      width: 400px;
+      height: 529px; 
+    }
+
+    .project2-showcase {
+      width: 400px;
+      height: 529px; 
+    }
+   
+    .project3-showcase {
+      width: 400px;
+      height: 529px; 
+    }
+
+    .project-left h3 {
+      font-size: 2em;
+      color: #fff;
+    }
+    
+    .project-left p {
+      font-size: 1.1em;
+      color: #fff;
+    }
+
+    .arrow-list li {
+      font-size: 1em;
+    }
+
+    .view-project a {
+      padding: 0.9em 2em;
+    }
+
+    .project-left {
+      margin: 0 6em 4em 4em;
+      width: 35%;
+    }
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    .project-space-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .project-left {
+      margin: 0 0 4em 0;
+      width: 55%;
+    }
+  
+    .project-right {
+      width: 400px;
+    }
+
+    .view-project {
+      margin-top: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .project-left {
+      width: 60%;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .project-left {
+      width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 625px) {
+    .project-left {
+      width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .project-left {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .project-left {
+      width: 85%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .project-left {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .project-right {
+      width: 350px;
+    }
+
+    .project-left {
+      width: 70%;
+    }
+
+    .project1-showcase {
+      width: 350px;
+      height: 463px; 
+    }
+
+    .project2-showcase {
+      width: 350px;
+      height: 463px; 
+    }
+   
+    .project3-showcase {
+      width: 350px;
+      height: 463px; 
+    }
+
+    .project-left h3 {
+      font-size: 1.5em;
+      color: #fff;
+    }
+    
+    .project-left p {
+      line-height: 1.7em;
+      font-size: 1em;
+      color: #fff;
+    }
+
+    .arrow-list li {
+      font-size: 0.9em;
+    }
+
+    .view-project a {
+      padding: 0.9em 2em;
+    }
+
+    .view-project a {
+      font-size: 0.8em;
+    }
+
+    .project-space-container {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .project-right {
+      width: 280px;
+    }
+
+    .project-left {
+      width: 70%;
+    }
+
+    .project1-showcase {
+      width: 280px;
+      height: 370px; 
+    }
+
+    .project2-showcase {
+      width: 280px;
+      height: 370px; 
+    }
+   
+    .project3-showcase {
+      width: 280px;
+      height: 370px; 
+    }
+
+    .project-left h3 {
+      font-size: 1.2em;
+      color: #fff;
+    }
+    
+    .project-left p {
+      line-height: 1.7em;
+      font-size: 0.95em;
+      color: #fff;
+    }
+
+    .arrow-list li {
+      font-size: 0.85em;
+    }
+
+    .view-project a {
+      padding: 0.9em 2em;
+    }
+
+    .view-project a {
+      font-size: 0.75em;
+    }
+  }
+

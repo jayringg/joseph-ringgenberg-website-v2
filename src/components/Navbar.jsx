@@ -24,7 +24,7 @@ function Navbar() {
 
     return (
 <nav>
-    <div className={`navbar-control ${isScrolledDown ? 'change' : ''}`}></div>
+    <div className={`navbar-control ${isScrolledDown ? 'change' : ''}`}></div> 
         <div className='navbar-wrapper'>
 
             <div className='socials-logo'>     
@@ -33,7 +33,11 @@ function Navbar() {
             </div>
 
 
-            
+            <div className='hamburger-menu'>
+                <div className='line-1'></div>
+                <div className='line-2'></div>   
+            </div>
+
             <div className='nav-links'>
                 <ul>
                     <li><a href='#header'>Home</a></li>
