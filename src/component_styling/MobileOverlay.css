@@ -1,28 +1,90 @@
 .mobile-overlay {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    transform-origin: right;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    transition: width 350ms ease 20ms;
+    background-color: #e8a87c;
+    height: 100%;
+    z-index: 1000;
 }
+
+.nav-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    transition: width 350ms ease 20ms;
+    background-color: #e8a87c;
+    height: 80px;
+    z-index: 100;
+}
+
+.mobile-overlay-text {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    padding: 1em 0 0 2em;
+    background-color: #e8a87c;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+}
+
+.mobile-overlay ul {
+    list-style-type: none;
+}
+
+.mobile-overlay li {
+    padding-top: 2em;
+    font-size: 1.8em;
+}
+
+.mobile-overlay a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hamburger-menu:hover .line-1,
+.hamburger-menu:hover .line-2 {
+  background-color: black;
+}
+
 
 @media screen and (max-width: 1000px) {
     .mobile-overlay.display {
         position: fixed;
         display: flex;
         flex-direction: column;
-        padding: 2em 0 0 4em;
+        transition: width 350ms ease;
         background-color: #e8a87c;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
         height: calc(100vh - 80px);
         margin-top: 80px;
-        z-index: 1000;
+    }
+
+    .nav-cover.display {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        transform-origin: left;
+        transition: width 350ms ease;
+        background-color: #e8a87c;
+        height: 80px;
     }
 
     .mobile-overlay.display ul {
         list-style-type: none;
-    }
-
-    .mobile-overlay.display li {
-        padding-top: 2em;
-        font-size: 2em;
     }
 
     .mobile-overlay.display a {
@@ -30,12 +92,18 @@
         text-decoration: none;
         color: #fff;
     }
-}
 
-@media screen and (max-width: 500px) {
-    .mobile-overlay.display {
-        align-items: center;
-        padding: 2em 0 0 0;
-       
+    .mobile-overlay-text.display {
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 0 3em;
+        background-color: #e8a87c;
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+    }
+
+    .mobile-overlay-text.display a:hover {
+      color: #000;
     }
 }

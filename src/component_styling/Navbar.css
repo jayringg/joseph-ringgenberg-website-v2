@@ -1,16 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  nav {
+nav {
     background: transparent;
     position: fixed;
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: 1000;
+    z-index: 10;
   }
 
 .navbar-control {
@@ -129,23 +123,16 @@ a:hover {
         height: 2.5px;
         margin-bottom: 0.2em;
     }
+ }
 
-    /* .navbar-mobile {
-        display: block;
-        position: fixed;
-        width: 30%;
-        height: 40%;
-        right: 4em;
-        top: 3em;
-        background-color: #fff;
+ @media screen and (max-width: 480px) {
+    .navbar-wrapper {
+        padding: 0 1em 0 1em;
     }
+ }
 
-    .navbar-mobile ul {
-        list-style-type: none;
+ @media screen and (max-width: 380px) {
+    .navbar-wrapper {
+        padding: 0 0 0 0;
     }
-
-    .navbar-mobile a {
-        color: #000;
-        text-decoration: none;
-    } */
  }

@@ -1,6 +1,6 @@
 import  '../component_styling/Header.css';
 
-function Header() {
+function Header() { 
     return (
         <section id='header'>
             <div className='personal-image'></div>

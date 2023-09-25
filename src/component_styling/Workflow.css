@@ -10,7 +10,6 @@
     column-gap: 1.5em;
     row-gap: 1.5em;
     text-align: center;
-    /* padding-top: 4em; */
   }
   
   .workflow-card p {
@@ -24,11 +23,10 @@
   .workflow-card {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-style: italic;
     font-size: 1.2em;
     background-color: #fff;
-    padding: 35px;
-    border-radius: 5px;
+    padding: 45px 35px;
+    border-radius: 15px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     margin-top: 6em;
   }
@@ -36,11 +34,10 @@
   .workflow-card-up {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
-    font-style: italic;
     font-size: 1.2em;
     background-color: #fff;
-    padding: 35px;
-    border-radius: 5px;
+    padding: 45px 35px;
+    border-radius: 15px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     margin: 0 0 6em 0;
   }
@@ -64,7 +61,6 @@
     font-weight: 800;
     font-size: 4em;
     background-color: #f4f3f1;
-    /* background-color: #e0ecf5; */
     color: #40b3a2;
     letter-spacing: 0.1em;
   }
@@ -101,12 +97,12 @@
     }
 
     .workflow-card {
-      padding: 30px;
+      padding: 45px 30px;
       margin: 0 0 7em 0;
     }
 
     .workflow-card-up {  
-      padding: 30px;
+      padding: 45px 30px;
       margin: 7em 0 0 0;
     } 
 
