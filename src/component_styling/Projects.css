@@ -137,9 +137,11 @@
     padding: 0.9em 2.5em;
   }
 
-  .view-project a:hover{
-    box-shadow: rgba(255, 255, 255, 0.2) 4px 4px 4px 0px;
-  }
+  @media (hover: hover) { 
+    .view-project a:hover{
+      box-shadow: rgba(255, 255, 255, 0.2) 4px 4px 4px 0px;
+    }
+ }
 
   @media screen and (max-width: 1200px) {
     .project1-showcase {

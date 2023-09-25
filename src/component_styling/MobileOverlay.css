@@ -52,10 +52,12 @@
     color: #fff;
 }
 
-.hamburger-menu:hover .line-1,
-.hamburger-menu:hover .line-2 {
-  background-color: black;
-}
+@media (hover: hover) { 
+    .hamburger-menu:hover .line-1,
+    .hamburger-menu:hover .line-2 {
+        background-color: black;
+    }
+ }
 
 
 @media screen and (max-width: 1000px) {

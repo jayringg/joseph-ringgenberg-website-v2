@@ -8,15 +8,12 @@
   }
    
   .banner-content {
-    /* padding: 0 0 0 2em; */
     width: 55%;
     height: 68%;
   } 
 
   .personal-image {
-    /* background-image: url('../images/personal-image-collar-no-background.png'); */
     background-image: url('../images/personal-pic.png');
-    /* background-image: url('../images/personal-pic-forward.png'); */
     background-size: cover;
     background-position: center; 
     background-color: #40b3a2;
@@ -50,9 +47,11 @@
     padding: 0.9em 2.5em;
   }
 
-  .get-in-touch a:hover{
-    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 4px 0px;
-  }
+  @media (hover: hover) { 
+    .get-in-touch a:hover{
+      box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 4px 0px;
+    }
+ }
 
   @media screen and (max-width: 1200px) {
     .text-over-name {
