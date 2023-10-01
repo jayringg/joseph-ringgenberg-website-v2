@@ -4,6 +4,7 @@ import  '../component_styling/Skills.css';
 function Skills() {
     return (      
       <section className='skills-page' id='skills'>
+        <div className='spacer'></div>
       <div className='section-header'><p>My Skills</p></div>
         <div className='center-control'>
           <div className='skill-cards-container'>

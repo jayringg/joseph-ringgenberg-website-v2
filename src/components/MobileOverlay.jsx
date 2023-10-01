@@ -1,25 +1,7 @@
-// import  '../component_styling/MobileOverlay.css';
-
-// function MobileOverlay({ isVisible }) {
-//     return (
-//         <div className={`mobile-overlay ${isVisible ? 'display' : ''}`}>
-//                 <ul>
-//                     <li><a href='#header'>Home</a></li>
-//                     <li><a href='#skills'>Skills</a></li>
-//                     <li><a href='#workflow'>Workflow</a></li>
-//                     <li><a href='#projects'>Projects</a></li>
-//                 </ul>
-//             </div>
-//      );
-// }
-    
-//     export default MobileOverlay
-
-
 import React, { useEffect, useState } from 'react';
 import  '../component_styling/MobileOverlay.css';
 function MobileOverlay({ isVisible, toggleMobileOverlay }) {
-  const [isDisplayVisible, setIsDisplayVisible] = useState(!isVisible);
+  const [isDisplayVisible, setIsDisplayVisible] = useState(isVisible);
 
   const handleScroll = () => {
     if (isDisplayVisible) {

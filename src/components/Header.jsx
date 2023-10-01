@@ -3,7 +3,9 @@ import  '../component_styling/Header.css';
 function Header() { 
     return (
         <section id='header'>
-            <div className='personal-image'></div>
+            <div className='image-container'>
+                <div className='personal-image'></div>
+            </div>
             <div className='banner-content'> 
               <div className='text-over'>Hi, my name is</div> 
               <div className='text-over-name'>Joseph Ringgenberg</div> 
