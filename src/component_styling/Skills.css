@@ -1,162 +1,182 @@
 .center-control {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #skills {
-    background-color: #f4f3f1;
-  }
+  display: flex;
+  justify-content: center;
+}
 
-  .spacer {
-    padding: 2em;
-  }
-  
-  .section-header {
-    padding: 1em 0 1em 3.5em;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    font-weight: 800;
-    font-size: 4em;
-    color: #40b3a2;
-    letter-spacing: 0.1em;
-  }
+#skills {
+  background-color: #f4f3f1;
+}
 
-  .skill-cards-container {
-    display: inline-grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5em;
-    row-gap: 1.5em;
-    text-align: center; 
-  }
-  
-  .skill-cards-container p, a {
-    background-color: #fff;
-  }
-  
+.spacer {
+  padding: 2em;
+}
+
+.section-header {
+  padding: 1em 0 1em 3.5em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  color: #40b3a2;
+  letter-spacing: 0.1em;
+}
+
+.skill-cards-container {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+  text-align: center;
+}
+
+.skill-cards-container p,
+a {
+  background-color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  padding: 55px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-aside {
+  background-color: #fff;
+  padding: 55px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-special {
+  background-color: #fff;
+  padding: 55px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.card-aside p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.card-special p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.card img {
+  background-color: #fff;
+  padding-bottom: 20px;
+  width: 100px;
+}
+
+.card-aside img {
+  background-color: #fff;
+  padding-bottom: 20px;
+  width: 100px;
+}
+
+.card-special img {
+  background-color: #fff;
+  padding-bottom: 20px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
   .card {
-    background-color: #fff;
-    padding: 55px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 35px;
   }
 
   .card-aside {
-    background-color: #fff;
-    padding: 55px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 1.3em;
+    padding: 35px;
   }
 
-  .card-aside p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: 1.3em;
-  }
-  
   .card img {
-    background-color: #fff;
-    padding-bottom: 20px;
-    width: 100px;
+    width: 80px;
   }
 
   .card-aside img {
-    background-color: #fff;
-    padding-bottom: 20px;
-    width: 100px;
+    width: 80px;
   }
 
-  @media screen and (max-width: 1200px) {
-    .card {
-      padding: 35px;  
-    }
+  .section-header {
+    padding: 1em 0 1em 2em;
+    font-weight: 600;
+    font-size: 3em;
+  }
+}
 
-    .card-aside {
-      padding: 35px;  
-    }
+@media screen and (max-width: 840px) {
+  .card {
+    padding: 25px;
+  }
 
-    .card img {
-      width: 80px;
-    }
+  .card-aside {
+    padding: 25px;
+  }
 
-    .card-aside img {
-      width: 80px;
-    }
+  .card p {
+    font-weight: 500;
+    font-size: 1.1em;
+  }
 
-    .section-header {
-      padding: 1em 0 1em 2em;
-      font-weight: 600;
-      font-size: 3em;
-    }
-   }
+  .card-aside p {
+    font-weight: 500;
+    font-size: 1.1em;
+  }
 
-   @media screen and (max-width: 840px) {
-    .card {
-      padding: 25px;  
-    }
+  .section-header {
+    padding: 1em 0 1em 1em;
+  }
 
-    .card-aside {
-      padding: 25px;  
-    }
+  .card img {
+    width: 70px;
+  }
 
-    .card p {
-      font-weight: 500;
-      font-size: 1.1em;
-    }
+  .card-aside img {
+    width: 70px;
+  }
+}
 
-    .card-aside p {
-      font-weight: 500;
-      font-size: 1.1em;
-    }
+@media screen and (max-width: 640px) {
+  .skill-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .section-header {
-      padding: 1em 0 1em 1em;
-    }
+  .section-header {
+    padding: 1em 0 1em 0.5em;
+    font-weight: 600;
+    font-size: 2.5em;
+  }
+}
 
-    .card img {
-      width: 70px;
-    }
+@media screen and (max-width: 430px) {
+  .section-header {
+    padding: 1em 0 1em 0.5em;
+    font-weight: 600;
+    font-size: 2em;
+  }
+}
 
-    .card-aside img {
-      width: 70px;
-    }
-   }
+@media screen and (max-width: 350px) {
+  .skill-cards-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-   @media screen and (max-width: 640px) {
-    .skill-cards-container {
-      grid-template-columns: repeat(2, 1fr);
-    }
+  .card {
+    margin-right: 6em;
+  }
 
-    .section-header {
-      padding: 1em 0 1em 0.5em;
-      font-weight: 600;
-      font-size: 2.5em;
-    }
-   }
-
-   @media screen and (max-width: 430px) {
-    .section-header {
-      padding: 1em 0 1em 0.5em;
-      font-weight: 600;
-      font-size: 2em;
-    }
-   }
-
-   @media screen and (max-width: 350px) {
-    .skill-cards-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    .card {
-      margin-right: 6em; 
-    }
-
-    .card-aside {
-      margin-left: 6em; 
-    }
-   } 
+  .card-aside {
+    margin-left: 6em;
+  }
+}
