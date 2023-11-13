@@ -48,13 +48,6 @@ a {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.card-special {
-  background-color: #fff;
-  padding: 55px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-}
-
 .card p {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
@@ -67,12 +60,6 @@ a {
   font-size: 1.3em;
 }
 
-.card-special p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 1.3em;
-}
-
 .card img {
   background-color: #fff;
   padding-bottom: 20px;
@@ -80,12 +67,6 @@ a {
 }
 
 .card-aside img {
-  background-color: #fff;
-  padding-bottom: 20px;
-  width: 100px;
-}
-
-.card-special img {
   background-color: #fff;
   padding-bottom: 20px;
   width: 100px;

@@ -13,10 +13,10 @@ function Skills() {
           <div className='card'><img src="https://i.ibb.co/0JFctYg/javascript.png" alt="javascript" /><p>JavaScript</p></div>
           <div className='card-aside'><img src="https://i.ibb.co/Rhvd00H/Canva-icon-2021-svg.png" alt="Canva" /><p>Canva</p></div>
           <div className='card'><img src="https://i.ibb.co/QdfDsLN/photoshop.png" alt="Photoshop" /><p>Photoshop</p></div>
-          <div className='card-aside'><img src="https://i.ibb.co/Xpb3ZZX/mailchimp.png" alt="Mailchimp" /><p>Mailchimp</p></div>
-          <div className='card-special'><img src="https://i.ibb.co/0MpJ4Wp/klaviyo.png" alt="Klaviyo" /><p>Klaviyo</p></div>
-          <div className='card-aside'><img src="https://i.ibb.co/7nzRxs4/brevo.png" alt="Brevo" /><p>Brevo</p></div>
-          <div className='card'><img src="https://i.ibb.co/3CpQSyy/responsive-design-color.png" alt="Responsive Design" /><p>Responsive<br />Design</p></div>
+          <div className='card-aside'><img src="https://i.ibb.co/3CpQSyy/responsive-design-color.png" alt="Responsive Design" /><p>Responsive<br />Design</p></div>
+          <div className='card'><img src="https://i.ibb.co/Xpb3ZZX/mailchimp.png" alt="Mailchimp" /><p>Mailchimp</p></div>
+          <div className='card-aside'><img src="https://i.ibb.co/0MpJ4Wp/klaviyo.png" alt="Klaviyo" /><p>Klaviyo</p></div>
+          <div className='card'><img src="https://i.ibb.co/7nzRxs4/brevo.png" alt="Brevo" /><p>Brevo</p></div>
           <div className='card-aside'><img src="https://i.ibb.co/8rrPTPT/emailonacid.png" alt="Email On Acid" /><p>Email<br />On Acid</p></div>
           <div className='card'><img src="https://i.ibb.co/S31mCcc/litmus.png" alt="Litmus" /><p>Litmus</p></div>
           <div className='card-aside'><img src="https://i.ibb.co/ZKKWcZK/git.png" alt="git" /><p>GIT</p></div>
