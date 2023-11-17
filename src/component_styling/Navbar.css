@@ -5,10 +5,10 @@ nav {
     top: 0px;
     left: 0px;
     z-index: 10;
-  }
+}
 
 .navbar-control {
-    background-color: #e27d60;
+    background-color: #343434;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -18,8 +18,8 @@ nav {
     height: 100%;
 }
 
- .navbar-control.change {
-    background-color: #e27d60;
+.navbar-control.change {
+    background-color: #343434;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -75,25 +75,25 @@ nav {
     width: 30px;
 }
 
-.hamburger-menu { 
+.hamburger-menu {
     display: none;
 }
 
-@media (hover: hover) { 
+@media (hover: hover) {
     .linkedin-logo img:hover {
         background-color: #000;
         border-radius: 2.5px;
     }
-    
+
     .github-logo img:hover {
         background-color: #000;
         border-radius: 30px;
-    }  
+    }
 
     a:hover {
         color: #000;
     }
- }
+}
 
 @media screen and (max-width: 1100px) {
     .nav-links {
@@ -111,30 +111,30 @@ nav {
         height: 1.2em;
         width: 2em;
     }
-    
+
     .hamburger-menu .line-1 {
         background-color: #fff;
         width: 35px;
         height: 2.5px;
         margin: 0 0 8px 0;
     }
-    
+
     .hamburger-menu .line-2 {
         background-color: #fff;
         width: 23px;
         height: 2.5px;
         margin-bottom: 0.2em;
     }
- }
+}
 
- @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .navbar-wrapper {
         padding: 0 1em 0 1em;
     }
- }
+}
 
- @media screen and (max-width: 380px) {
+@media screen and (max-width: 380px) {
     .navbar-wrapper {
         padding: 0 0 0 0;
     }
- }
+}

@@ -1,17 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .footer-page {
-    background-color: #40b3a2;
-    /* background-color: #1F363D; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4em;
-    width: 100%;
+  background-color: #40b3a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  width: 100%;
+}
+
+.footer-container p {
+  color: #fff;
 }
 
 @media screen and (max-width: 450px) {
