@@ -81,17 +81,17 @@ nav {
 
 @media (hover: hover) {
     .linkedin-logo img:hover {
-        background-color: #000;
+        background-color: #e27d60;
         border-radius: 2.5px;
     }
 
     .github-logo img:hover {
-        background-color: #000;
+        background-color: #e27d60;
         border-radius: 30px;
     }
 
     a:hover {
-        color: #000;
+        color: #e27d60;
     }
 }
 
